@@ -76,10 +76,33 @@ console.log(stringStrat("New Zeland"));
 
 /* 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. 
     Pass the array as a parameter. */
+console.log("---------->Ex-8<----------");
+function sumOfArray(array0f3Number) {
+  let sum = 0;
+  for (let i = 0; i < array0f3Number.length; i++) {
+    sum += array0f3Number[i];
+  }
+  return sum;
+}
+console.log(sumOfArray([20, 15, 5]));
 
 /* 9. Create a function to test if an array of lenght 2 contains 1 OR 3. 
     Return `true` is it does, `false` if it doesn't. */
 
+console.log("---------->Ex-9<----------");
+function checkArayyLength(arrayy) {
+  if (
+    arrayy[0] === 1 ||
+    arrayy[0] === 3 ||
+    arrayy[1] === 1 ||
+    arrayy[1] === 3
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(checkArayyLength([1, 6]));
 /* 10. Create a function to test if an array of lenght 2 DOES NOT contain 1 or 3. 
     Return `true` if it doesn't, `false` if it does. */
 
