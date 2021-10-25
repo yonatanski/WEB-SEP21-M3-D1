@@ -58,12 +58,21 @@ console.log(numRangeCheker(40, 50));
 
 /* 6. Create a function to create a new string composed of a specified number of copies of a given string. 
     Pass the string and the number of copies as parameters. */
-console.log("---------->Ex-6<----------")
-function create 
+console.log("---------->Ex-6<----------");
+
 //  the question is not clear for me or i am not able to understand the question well
 
 /* 7. Create a function to display the city name if the string begins with "Los" or "New". 
     Pass the city name as a parameter. Return `false` if they start with a different string. */
+console.log("---------->Ex-7<----------");
+function stringStrat(str) {
+  if (str.startsWith("Los") || str.startsWith("New")) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(stringStrat("New Zeland"));
 
 /* 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. 
     Pass the array as a parameter. */
