@@ -3,8 +3,11 @@ console.log("---------->Ex-1<----------");
 function sumof2Numbers(a, b) {
   if (a === b) {
     return (a + b) * 3;
+  } else {
+    return a + b;
   }
 }
+
 console.log(sumof2Numbers(20, 20));
 
 /* 2. Create a function to check two given integers. Return `true` if one of them is 50 or if their sum is 50. */
@@ -28,16 +31,16 @@ console.log(characteremove("yonatan", 4));
 /* 4. Create a function to find and return the largest of three given integers. */
 console.log("---------->Ex-4<----------");
 function findLargestNum(x, y, z) {
-  max_val = 0;
+  maxVal = 0;
   if (x > y) {
-    max_val = x;
+    maxVal = x;
   } else {
-    max_val = y;
+    maxVal = y;
   }
-  if (z > max_val) {
-    max_val = z;
+  if (z > maxVal) {
+    maxVal = z;
   }
-  return max_val;
+  return maxVal;
 }
 console.log(findLargestNum(800, 230, 500));
 
@@ -54,7 +57,7 @@ function numRangeCheker(x, y) {
     return false;
   }
 }
-console.log(numRangeCheker(40, 50));
+console.log(numRangeCheker(95, 50));
 
 /* 6. Create a function to create a new string composed of a specified number of copies of a given string. 
     Pass the string and the number of copies as parameters. */
